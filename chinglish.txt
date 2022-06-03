@@ -69,6 +69,10 @@ play 普雷
 store 斯托尔
 test 泰斯特
 how 耗
+google 谷歌
+baidu 百度
+facebook 非死不可
+don 咚
 
 the 德
 be 比
