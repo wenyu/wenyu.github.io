@@ -37,7 +37,7 @@
         var k = items[0];
         var v = items.splice(1);
         var d = phraseDict;
-        if (k.length == 1 || k.match(/[^a-zA-Z0-9]/i)) {
+        if (k.length == 1 || k.match(/[^a-zA-Z0-9]/)) {
           d = letterDict;
         }
         if (k in d) {
@@ -52,10 +52,11 @@
       }
       
       function convert(text) {
-        text = text.toLowerCase();
+        text = text.toLowerCase().trim();
         var result = [];
         while (text.length > 0) {
-          var token = text.match(/[a-z]+|[0-9]+|[ \t]+|./)[0];
+          var token = text.match(/[a-z]+|[0-9]+|[ \t]+|./s)[0];
+          console.log(token);
           var seed = Math.random();
           
           text = text.substr(token.length);
