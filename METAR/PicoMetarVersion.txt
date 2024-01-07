@@ -1,0 +1,2 @@
+0d7dc21d
+https://wenyu.github.io/METAR/PicoMetar.tgz
