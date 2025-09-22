@@ -1,0 +1,2 @@
+61cb9868
+https://wenyu.github.io/METAR/PicoMetar.tgz
