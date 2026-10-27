@@ -14,10 +14,108 @@
     />
     <link rel="icon" type="image/svg+xml" href="/arco/arco-mark.svg" />
     <title>Arco · Violin practice</title>
-    <script type="module" crossorigin src="/arco/assets/index-BAxRGMEU.js"></script>
-    <link rel="stylesheet" crossorigin href="/arco/assets/index-A7iWVb6F.css">
+    <!-- Shown inside #root until React's first render replaces it. -->
+    <style>
+      html {
+        background: #f7f5ef;
+      }
+      body {
+        margin: 0;
+      }
+      .arco-launch {
+        min-height: 100vh;
+        min-height: 100dvh;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+        padding: 24px 16px;
+        text-align: center;
+        font-family:
+          -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei',
+          sans-serif;
+        font-size: 15px;
+        line-height: 1.6;
+        color: #172b27;
+      }
+      .arco-launch p {
+        margin: 0;
+      }
+      .arco-launch-mark {
+        width: 56px;
+        height: 80px;
+        margin-bottom: 12px;
+        color: #315f53;
+      }
+      .arco-launch .arco-launch-name {
+        margin-bottom: 8px;
+        font-family: Georgia, 'Times New Roman', serif;
+        font-size: 40px;
+        letter-spacing: -2px;
+        line-height: 1;
+      }
+      .arco-launch-name span {
+        color: #9ba995;
+      }
+      .arco-launch-help {
+        display: flex;
+        flex-direction: column;
+        margin-top: 16px;
+        color: #596b63;
+        /* A normal launch replaces this page long before the hint appears. */
+        animation: arco-launch-help 0.3s ease-out 5s both;
+      }
+      .arco-launch-help a {
+        display: inline-block;
+        padding: 10px 6px;
+        color: #206454;
+        text-decoration: underline;
+      }
+      @keyframes arco-launch-help {
+        from {
+          opacity: 0;
+          visibility: hidden;
+        }
+        to {
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+    </style>
+    <script type="module" crossorigin src="/arco/assets/index-xpFQRpHc.js"></script>
+    <link rel="stylesheet" crossorigin href="/arco/assets/index-CyaTL0Hd.css">
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <div class="arco-launch" role="status">
+        <svg
+          class="arco-launch-mark"
+          viewBox="10 4 48 68"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.25"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+          focusable="false"
+        >
+          <path d="m22 8 5 4q3-1 6 0l5-4v11c0 5-3 8-8 8s-8-3-8-8Z" />
+          <path
+            d="M27 27v6c-8-4-14 1-10 7 4 3 5 5 2 9-8 10 0 19 11 19s19-9 11-19c-3-4-2-6 2-9 4-6-2-11-10-7v-6"
+          />
+          <path d="M30 34v21m-4 0h8m-4 4v4m24-35-9 39" />
+          <path d="M25 20h1m8 0h1" />
+        </svg>
+        <p class="arco-launch-name" aria-hidden="true">arco<span>.</span></p>
+        <p lang="en">Opening Arco…</p>
+        <p lang="zh-Hans">正在打开 Arco…</p>
+        <div class="arco-launch-help">
+          <p lang="en">Still not open? <a href="/arco/">Reload</a></p>
+          <p lang="zh-Hans">还没打开？<a href="/arco/">重新打开</a></p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
