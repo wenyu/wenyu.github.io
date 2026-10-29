@@ -1,4 +1,4 @@
-const CONFIG = {"base":"/arco/","files":[{"url":"/arco/arco-mark.svg","integrity":"sha256-xCX2RbHCJbsaD5X27TFSHt7kzIVLn/v+RLtfKvcX79I="},{"url":"/arco/assets/A3-B899Ep8C.mp3","integrity":"sha256-jhCP4ijjTjL2tOYe//cy7sUwWKnm8FqNjnGVmLEyxPk="},{"url":"/arco/assets/A4-DOvdn91G.mp3","integrity":"sha256-pi3ySiyEzqjRjB+orKfBjId7ordqAKWRJW+nTTzlSsM="},{"url":"/arco/assets/A5-CM9sZMm0.mp3","integrity":"sha256-nlzuH+nPaLcZNiPUaifIlW5XLB/yNMoOEVmbVWBQ3sY="},{"url":"/arco/assets/A6-I7BaRKn3.mp3","integrity":"sha256-tgZKZXWSxjwDVh0s4QkmB8FOHYCRRF1QBl0OyBn/b7w="},{"url":"/arco/assets/C4-B2DzZQ9W.mp3","integrity":"sha256-aJ6qTC/X8poswOOG7sRiFW1SOofXASaeXiRY5mBW9PY="},{"url":"/arco/assets/C5-C2EPYtUj.mp3","integrity":"sha256-L1sPdCIGMBD7N55oS/3y2qORHc0iUUE9efoqUwKf3DA="},{"url":"/arco/assets/C6-BcoErVUV.mp3","integrity":"sha256-DTIy7dE7pp/VyvSilQYK4P1TO4oUM64KA4ZE1wcVyQc="},{"url":"/arco/assets/C7-DoR7Z-NX.mp3","integrity":"sha256-aUtRL6yZun9ykMBF2cGOlHJKfrzDGbk3uqvGISWBQoM="},{"url":"/arco/assets/capture-worklet-CJRFVNAO.js","integrity":"sha256-jK3fF8zsz+6w+0SvaEfdB1GDB0kFGNB/B1na1P6dhzI="},{"url":"/arco/assets/Ds4-ZpjA_cOI.mp3","integrity":"sha256-Zj6Ls+LQ+iOjBSbc16sOQmCcGTwHAlZH70a63PgewhE="},{"url":"/arco/assets/Ds5-rz2hEMxW.mp3","integrity":"sha256-v3EJbmU6t87KORS5/UTYwn/oPBYlZMXbNL0GuU6xS4w="},{"url":"/arco/assets/Ds6-ZnMjIARI.mp3","integrity":"sha256-62QwFNn5JvGl+fUfxKHtjAfG2jbOFk1bIh17h4pT8UI="},{"url":"/arco/assets/Fs4-XuYqV_uK.mp3","integrity":"sha256-YTZS9cluNXNs5qRrxN22uhB20fsWo1pMIsFOZ+/d5Xw="},{"url":"/arco/assets/Fs5-bI3vcOCZ.mp3","integrity":"sha256-7S/fVDJ06nLd1OtjShY1ZTGl9AQLKmDTT7EqXHLL8i8="},{"url":"/arco/assets/Fs6-DO3MyhsQ.mp3","integrity":"sha256-xYTStOlqN7Eskg7TIS0Umr7fJTQjib/cVXsvrIR6sRw="},{"url":"/arco/assets/icon-180.png","integrity":"sha256-Sei2FKc1NkGD1Sa60RwN29WeW1b98BefXGBqJoHc/Ro="},{"url":"/arco/assets/icon-192.png","integrity":"sha256-eAUxhh5x1TbWG+dfZKzn7uqAbwGj8AKXjvl1vPLhBs8="},{"url":"/arco/assets/icon-512.png","integrity":"sha256-OEGL9FOGFnG0t7WdQluTU6ff2DqcllKJuaRIEi//hg8="},{"url":"/arco/assets/index-BuAwgz6j.js","integrity":"sha256-Qr3IbMckacwxUCJlTXRqaD0rDaxwT5pzZpvBEg91wmc="},{"url":"/arco/assets/index-sRjVkRVW.css","integrity":"sha256-QGgdY7yKm60950t+vZPAo9+pjXsCOily9xCwzWKyOxc="},{"url":"/arco/assets/opensheetmusicdisplay.min-D4FpzpAo.js","integrity":"sha256-dFxU34urIIJRrGGo7Tq8Qj9POzcY8ujY52kH4vkDUo4="},{"url":"/arco/assets/pitch-worker-ZTRS4dn9.js","integrity":"sha256-3nU6cgwtb52c/1wuD8cAqX7gVN72HeFZhtgkSovUdSs="},{"url":"/arco/index.html","integrity":"sha256-K22+AEq6BU4KoKQDOGay/n2W/oB3e/vMP6T886saD/0="},{"url":"/arco/manifest.webmanifest","integrity":"sha256-7r1ZBy6cMiOS4zLvh2Bh2XwpEss3p+RawFBA4co/jrg="}],"prefix":"arco-offline:/arco/:","version":"7a9f614f76dd3ac18194","buildNumber":"20261027-005"};
+const CONFIG = {"base":"/arco/","files":[{"url":"/arco/arco-mark.svg","integrity":"sha256-xCX2RbHCJbsaD5X27TFSHt7kzIVLn/v+RLtfKvcX79I="},{"url":"/arco/assets/A3-B899Ep8C.mp3","integrity":"sha256-jhCP4ijjTjL2tOYe//cy7sUwWKnm8FqNjnGVmLEyxPk="},{"url":"/arco/assets/A4-DOvdn91G.mp3","integrity":"sha256-pi3ySiyEzqjRjB+orKfBjId7ordqAKWRJW+nTTzlSsM="},{"url":"/arco/assets/A5-CM9sZMm0.mp3","integrity":"sha256-nlzuH+nPaLcZNiPUaifIlW5XLB/yNMoOEVmbVWBQ3sY="},{"url":"/arco/assets/A6-I7BaRKn3.mp3","integrity":"sha256-tgZKZXWSxjwDVh0s4QkmB8FOHYCRRF1QBl0OyBn/b7w="},{"url":"/arco/assets/C4-B2DzZQ9W.mp3","integrity":"sha256-aJ6qTC/X8poswOOG7sRiFW1SOofXASaeXiRY5mBW9PY="},{"url":"/arco/assets/C5-C2EPYtUj.mp3","integrity":"sha256-L1sPdCIGMBD7N55oS/3y2qORHc0iUUE9efoqUwKf3DA="},{"url":"/arco/assets/C6-BcoErVUV.mp3","integrity":"sha256-DTIy7dE7pp/VyvSilQYK4P1TO4oUM64KA4ZE1wcVyQc="},{"url":"/arco/assets/C7-DoR7Z-NX.mp3","integrity":"sha256-aUtRL6yZun9ykMBF2cGOlHJKfrzDGbk3uqvGISWBQoM="},{"url":"/arco/assets/capture-worklet-CJRFVNAO.js","integrity":"sha256-jK3fF8zsz+6w+0SvaEfdB1GDB0kFGNB/B1na1P6dhzI="},{"url":"/arco/assets/Ds4-ZpjA_cOI.mp3","integrity":"sha256-Zj6Ls+LQ+iOjBSbc16sOQmCcGTwHAlZH70a63PgewhE="},{"url":"/arco/assets/Ds5-rz2hEMxW.mp3","integrity":"sha256-v3EJbmU6t87KORS5/UTYwn/oPBYlZMXbNL0GuU6xS4w="},{"url":"/arco/assets/Ds6-ZnMjIARI.mp3","integrity":"sha256-62QwFNn5JvGl+fUfxKHtjAfG2jbOFk1bIh17h4pT8UI="},{"url":"/arco/assets/Fs4-XuYqV_uK.mp3","integrity":"sha256-YTZS9cluNXNs5qRrxN22uhB20fsWo1pMIsFOZ+/d5Xw="},{"url":"/arco/assets/Fs5-bI3vcOCZ.mp3","integrity":"sha256-7S/fVDJ06nLd1OtjShY1ZTGl9AQLKmDTT7EqXHLL8i8="},{"url":"/arco/assets/Fs6-DO3MyhsQ.mp3","integrity":"sha256-xYTStOlqN7Eskg7TIS0Umr7fJTQjib/cVXsvrIR6sRw="},{"url":"/arco/assets/icon-180.png","integrity":"sha256-Sei2FKc1NkGD1Sa60RwN29WeW1b98BefXGBqJoHc/Ro="},{"url":"/arco/assets/icon-192.png","integrity":"sha256-eAUxhh5x1TbWG+dfZKzn7uqAbwGj8AKXjvl1vPLhBs8="},{"url":"/arco/assets/icon-512.png","integrity":"sha256-OEGL9FOGFnG0t7WdQluTU6ff2DqcllKJuaRIEi//hg8="},{"url":"/arco/assets/index-CUIKUmKr.css","integrity":"sha256-7OokAdCUUnSA7DyJ3JYQJxEjjKlptTR+niEt/crPdzo="},{"url":"/arco/assets/index-Q0Z1-a7O.js","integrity":"sha256-3byLziSKidsSwq883PaJO1q/fiT1R8YP/awl97ZcbXA="},{"url":"/arco/assets/opensheetmusicdisplay.min-D4FpzpAo.js","integrity":"sha256-dFxU34urIIJRrGGo7Tq8Qj9POzcY8ujY52kH4vkDUo4="},{"url":"/arco/assets/pitch-worker-ZTRS4dn9.js","integrity":"sha256-3nU6cgwtb52c/1wuD8cAqX7gVN72HeFZhtgkSovUdSs="},{"url":"/arco/index.html","integrity":"sha256-RKQf3dktHjRdbnSaEK91M9Sc4/MKSovV20bnZnOE4EU="},{"url":"/arco/manifest.webmanifest","integrity":"sha256-7r1ZBy6cMiOS4zLvh2Bh2XwpEss3p+RawFBA4co/jrg="}],"prefix":"arco-offline:/arco/:","version":"639689ab65ede9819451","buildNumber":"20261029-001"};
 /* CONFIG is generated from the final production assets. */
 const CACHE = CONFIG.prefix + CONFIG.version;
 const activationMarker = CONFIG.base + '__offline_manual_activation__';
@@ -65,11 +65,33 @@ async function fill(generation = 0) {
   );
   return completePackage();
 }
+const inScope = (client) => {
+  const url = new URL(client.url);
+  return url.origin === self.location.origin && url.pathname.startsWith(CONFIG.base);
+};
+// A status reply can give up before a slow repair finishes; windows re-check on this message.
+async function announceReady() {
+  const message = {
+    type: 'OFFLINE_PACKAGE_READY',
+    version: CONFIG.version,
+    buildNumber: CONFIG.buildNumber,
+  };
+  try {
+    for (const client of await self.clients.matchAll({ type: 'window', includeUncontrolled: true }))
+      if (inScope(client)) client.postMessage(message);
+  } catch {
+    // Windows still learn the state at their next status check.
+  }
+}
 let repairing = null;
 // One repair at a time; concurrent requests share it.
 const repair = () =>
   (repairing ??= fill()
     .catch(() => false)
+    .then(async (ready) => {
+      if (ready) await announceReady();
+      return ready;
+    })
     .finally(() => {
       repairing = null;
     }));
@@ -114,14 +136,30 @@ self.addEventListener('install', (event) => {
 // installing or waiting version, or to an interrupted install that a later
 // activation reclaims. A cache without a record comes from a build before package
 // records and can belong to an installing or waiting version of such a build.
-async function reclaim() {
+// After an explicit handover the previous version stays: the handing-over document can
+// still request its lazy chunks. That is the version the document named (`keep`) or,
+// for a page that did not name one, the latest older generation or, when no older
+// cache has a record, the caches without one.
+async function reclaim(keepPrevious, keep) {
   const own = await readRecord(CACHE);
   if (!own) return;
-  for (const name of await ownedCaches()) {
-    if (name === CACHE) continue;
-    const record = await readRecord(name);
-    const { installing, waiting } = self.registration;
-    const otherWorker = !!installing || (!!waiting && waiting !== self.serviceWorker);
+  const others = [];
+  for (const name of await ownedCaches())
+    if (name !== CACHE) others.push({ name, record: await readRecord(name) });
+  let previous = null;
+  for (const other of others)
+    if (
+      other.record &&
+      other.record.generation < own.generation &&
+      (!previous || other.record.generation > previous.record.generation)
+    )
+      previous = other;
+  const { installing, waiting } = self.registration;
+  const otherWorker = !!installing || (!!waiting && waiting !== self.serviceWorker);
+  const named = keepPrevious && keep && others.some((other) => other.name === keep);
+  for (const { name, record } of others) {
+    if (named ? name === keep : keepPrevious && (record ? name === previous?.name : !previous))
+      continue;
     if (record ? record.generation < own.generation : !otherWorker) await caches.delete(name);
   }
 }
@@ -129,8 +167,17 @@ self.addEventListener('activate', (event) => {
   event.waitUntil(
     (async () => {
       // Old documents can finish requests across explicit handover, including lazy chunks.
-      // A later automatic activation, after all windows close, reclaims owned versions.
-      if (!(await caches.match(activationMarker, { cacheName: CACHE }))) await reclaim();
+      // A later activation reclaims that previous version.
+      const marker = await caches.match(activationMarker, { cacheName: CACHE });
+      let keep = null;
+      try {
+        const from = marker && (await marker.clone().json())?.from;
+        if (typeof from === 'string' && from && from !== CONFIG.version)
+          keep = CONFIG.prefix + from;
+      } catch {
+        // A marker without a named version (earlier pages) keeps the latest older version.
+      }
+      await reclaim(!!marker, keep);
       await self.clients.claim();
     })(),
   );
@@ -173,10 +220,6 @@ async function reply(event, ready) {
   }
   const source = event.source;
   const clients = await self.clients.matchAll({ type: 'window', includeUncontrolled: true });
-  const inScope = (client) => {
-    const url = new URL(client.url);
-    return url.origin === self.location.origin && url.pathname.startsWith(CONFIG.base);
-  };
   const otherWindows = clients.some((client) => inScope(client) && client.id !== source?.id);
   if (
     !ready ||
@@ -192,7 +235,16 @@ async function reply(event, ready) {
     });
     return;
   }
-  await (await caches.open(CACHE)).put(activationMarker, new Response('retain previous assets'));
+  // Names the version the handing-over document runs, so activation keeps that cache.
+  const from = typeof event.data.from === 'string' ? event.data.from : null;
+  await (
+    await caches.open(CACHE)
+  ).put(
+    activationMarker,
+    new Response(JSON.stringify({ retain: 'previous assets', from }), {
+      headers: { 'Content-Type': 'application/json' },
+    }),
+  );
   event.ports[0]?.postMessage({ ...status, accepted: true });
   await self.skipWaiting();
 }
