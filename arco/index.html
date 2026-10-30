@@ -8,6 +8,22 @@
     <meta name="apple-mobile-web-app-title" content="Arco" />
     <link rel="apple-touch-icon" sizes="180x180" href="/arco/assets/icon-180.png" />
     <link rel="manifest" href="/arco/manifest.webmanifest" />
+    <!-- The UI face is the one font every page needs: fetch it with the HTML. -->
+    <link
+      rel="preload"
+      href="/arco/fonts/ArcoSans-VF.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <!-- Accidentals can first appear mid-session (F♯4); fetch their 3.5 KB face up front. -->
+    <link
+      rel="preload"
+      href="/arco/fonts/ArcoMusic-subset.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
     <meta
       name="description"
       content="Arco — a calm space for violin scales, listening, and daily practice. 弓弦练习：音阶、听音与日常练习。"
@@ -84,8 +100,8 @@
         }
       }
     </style>
-    <script type="module" crossorigin src="/arco/assets/index-CrjIBDlE.js"></script>
-    <link rel="stylesheet" crossorigin href="/arco/assets/index-Cr5cIDLn.css">
+    <script type="module" crossorigin src="/arco/assets/index-DnlEsdHd.js"></script>
+    <link rel="stylesheet" crossorigin href="/arco/assets/index-PUwTYQcB.css">
   </head>
   <body>
     <div id="root">
