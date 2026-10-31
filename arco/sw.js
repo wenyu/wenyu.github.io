@@ -1,4 +1,4 @@
-const CONFIG = {"base":"/arco/","files":[{"url":"/arco/arco-mark.svg","integrity":"sha256-xCX2RbHCJbsaD5X27TFSHt7kzIVLn/v+RLtfKvcX79I="},{"url":"/arco/assets/A3-B899Ep8C.mp3","integrity":"sha256-jhCP4ijjTjL2tOYe//cy7sUwWKnm8FqNjnGVmLEyxPk="},{"url":"/arco/assets/A4-DOvdn91G.mp3","integrity":"sha256-pi3ySiyEzqjRjB+orKfBjId7ordqAKWRJW+nTTzlSsM="},{"url":"/arco/assets/A5-CM9sZMm0.mp3","integrity":"sha256-nlzuH+nPaLcZNiPUaifIlW5XLB/yNMoOEVmbVWBQ3sY="},{"url":"/arco/assets/A6-I7BaRKn3.mp3","integrity":"sha256-tgZKZXWSxjwDVh0s4QkmB8FOHYCRRF1QBl0OyBn/b7w="},{"url":"/arco/assets/C4-B2DzZQ9W.mp3","integrity":"sha256-aJ6qTC/X8poswOOG7sRiFW1SOofXASaeXiRY5mBW9PY="},{"url":"/arco/assets/C5-C2EPYtUj.mp3","integrity":"sha256-L1sPdCIGMBD7N55oS/3y2qORHc0iUUE9efoqUwKf3DA="},{"url":"/arco/assets/C6-BcoErVUV.mp3","integrity":"sha256-DTIy7dE7pp/VyvSilQYK4P1TO4oUM64KA4ZE1wcVyQc="},{"url":"/arco/assets/C7-DoR7Z-NX.mp3","integrity":"sha256-aUtRL6yZun9ykMBF2cGOlHJKfrzDGbk3uqvGISWBQoM="},{"url":"/arco/assets/capture-worklet-CJRFVNAO.js","integrity":"sha256-jK3fF8zsz+6w+0SvaEfdB1GDB0kFGNB/B1na1P6dhzI="},{"url":"/arco/assets/Ds4-ZpjA_cOI.mp3","integrity":"sha256-Zj6Ls+LQ+iOjBSbc16sOQmCcGTwHAlZH70a63PgewhE="},{"url":"/arco/assets/Ds5-rz2hEMxW.mp3","integrity":"sha256-v3EJbmU6t87KORS5/UTYwn/oPBYlZMXbNL0GuU6xS4w="},{"url":"/arco/assets/Ds6-ZnMjIARI.mp3","integrity":"sha256-62QwFNn5JvGl+fUfxKHtjAfG2jbOFk1bIh17h4pT8UI="},{"url":"/arco/assets/Fs4-XuYqV_uK.mp3","integrity":"sha256-YTZS9cluNXNs5qRrxN22uhB20fsWo1pMIsFOZ+/d5Xw="},{"url":"/arco/assets/Fs5-bI3vcOCZ.mp3","integrity":"sha256-7S/fVDJ06nLd1OtjShY1ZTGl9AQLKmDTT7EqXHLL8i8="},{"url":"/arco/assets/Fs6-DO3MyhsQ.mp3","integrity":"sha256-xYTStOlqN7Eskg7TIS0Umr7fJTQjib/cVXsvrIR6sRw="},{"url":"/arco/assets/icon-180.png","integrity":"sha256-Sei2FKc1NkGD1Sa60RwN29WeW1b98BefXGBqJoHc/Ro="},{"url":"/arco/assets/icon-192.png","integrity":"sha256-eAUxhh5x1TbWG+dfZKzn7uqAbwGj8AKXjvl1vPLhBs8="},{"url":"/arco/assets/icon-512.png","integrity":"sha256-OEGL9FOGFnG0t7WdQluTU6ff2DqcllKJuaRIEi//hg8="},{"url":"/arco/assets/index-95lB2H-g.css","integrity":"sha256-iXSVRkpu5xiMYAVqOdtxxaTWlNX9x8rbXrv6tJYiEbA="},{"url":"/arco/assets/index-B_leM0Lu.js","integrity":"sha256-RcRWZ2ZoN0WiS6bRY5i796rITYJA4JfotvjWQTCoP0o="},{"url":"/arco/assets/opensheetmusicdisplay.min-D4FpzpAo.js","integrity":"sha256-dFxU34urIIJRrGGo7Tq8Qj9POzcY8ujY52kH4vkDUo4="},{"url":"/arco/assets/pitch-worker-CFhERybe.js","integrity":"sha256-y9/SquJqpIh5N7Cz7DyCEpyHG14kj2JLy1J1A+70AAs="},{"url":"/arco/fonts/ArcoMusic-subset.woff2","integrity":"sha256-/OIWtZF2EGFmJHRsjVS/Noe0xMS0Jwov+qFsefmeI0Q="},{"url":"/arco/fonts/ArcoSans-VF.woff2","integrity":"sha256-lTo+6wng0sXHv8FjpAGnVOXwlxhi6odXA3CX/6oZNDY="},{"url":"/arco/fonts/LICENSES.txt","integrity":"sha256-RSfJgEbNyStmp0B6K5iKw2S0Og/CvYRGhgTULWgWMiM="},{"url":"/arco/fonts/OFL-Noto.txt","integrity":"sha256-FnnLYFRJkLTCRFMgxtUpjkuwwI/wDbtaUm83k/2qHm8="},{"url":"/arco/index.html","integrity":"sha256-yJCPCFFx0wdgkc45vLs1aqcYizLQwXReJppeyx8CPfA="},{"url":"/arco/manifest.webmanifest","integrity":"sha256-7r1ZBy6cMiOS4zLvh2Bh2XwpEss3p+RawFBA4co/jrg="}],"prefix":"arco-offline:/arco/:","version":"12f6f144932e9eaefeb4","buildNumber":"20261030-011"};
+const CONFIG = {"base":"/arco/","files":[{"url":"/arco/arco-mark.svg","integrity":"sha256-xCX2RbHCJbsaD5X27TFSHt7kzIVLn/v+RLtfKvcX79I="},{"url":"/arco/assets/A3-B899Ep8C.mp3","integrity":"sha256-jhCP4ijjTjL2tOYe//cy7sUwWKnm8FqNjnGVmLEyxPk="},{"url":"/arco/assets/A4-DOvdn91G.mp3","integrity":"sha256-pi3ySiyEzqjRjB+orKfBjId7ordqAKWRJW+nTTzlSsM="},{"url":"/arco/assets/A5-CM9sZMm0.mp3","integrity":"sha256-nlzuH+nPaLcZNiPUaifIlW5XLB/yNMoOEVmbVWBQ3sY="},{"url":"/arco/assets/A6-I7BaRKn3.mp3","integrity":"sha256-tgZKZXWSxjwDVh0s4QkmB8FOHYCRRF1QBl0OyBn/b7w="},{"url":"/arco/assets/C4-B2DzZQ9W.mp3","integrity":"sha256-aJ6qTC/X8poswOOG7sRiFW1SOofXASaeXiRY5mBW9PY="},{"url":"/arco/assets/C5-C2EPYtUj.mp3","integrity":"sha256-L1sPdCIGMBD7N55oS/3y2qORHc0iUUE9efoqUwKf3DA="},{"url":"/arco/assets/C6-BcoErVUV.mp3","integrity":"sha256-DTIy7dE7pp/VyvSilQYK4P1TO4oUM64KA4ZE1wcVyQc="},{"url":"/arco/assets/C7-DoR7Z-NX.mp3","integrity":"sha256-aUtRL6yZun9ykMBF2cGOlHJKfrzDGbk3uqvGISWBQoM="},{"url":"/arco/assets/capture-worklet-CJRFVNAO.js","integrity":"sha256-jK3fF8zsz+6w+0SvaEfdB1GDB0kFGNB/B1na1P6dhzI="},{"url":"/arco/assets/Ds4-ZpjA_cOI.mp3","integrity":"sha256-Zj6Ls+LQ+iOjBSbc16sOQmCcGTwHAlZH70a63PgewhE="},{"url":"/arco/assets/Ds5-rz2hEMxW.mp3","integrity":"sha256-v3EJbmU6t87KORS5/UTYwn/oPBYlZMXbNL0GuU6xS4w="},{"url":"/arco/assets/Ds6-ZnMjIARI.mp3","integrity":"sha256-62QwFNn5JvGl+fUfxKHtjAfG2jbOFk1bIh17h4pT8UI="},{"url":"/arco/assets/Fs4-XuYqV_uK.mp3","integrity":"sha256-YTZS9cluNXNs5qRrxN22uhB20fsWo1pMIsFOZ+/d5Xw="},{"url":"/arco/assets/Fs5-bI3vcOCZ.mp3","integrity":"sha256-7S/fVDJ06nLd1OtjShY1ZTGl9AQLKmDTT7EqXHLL8i8="},{"url":"/arco/assets/Fs6-DO3MyhsQ.mp3","integrity":"sha256-xYTStOlqN7Eskg7TIS0Umr7fJTQjib/cVXsvrIR6sRw="},{"url":"/arco/assets/icon-180.png","integrity":"sha256-Sei2FKc1NkGD1Sa60RwN29WeW1b98BefXGBqJoHc/Ro="},{"url":"/arco/assets/icon-192.png","integrity":"sha256-eAUxhh5x1TbWG+dfZKzn7uqAbwGj8AKXjvl1vPLhBs8="},{"url":"/arco/assets/icon-512.png","integrity":"sha256-OEGL9FOGFnG0t7WdQluTU6ff2DqcllKJuaRIEi//hg8="},{"url":"/arco/assets/index-95lB2H-g.css","integrity":"sha256-iXSVRkpu5xiMYAVqOdtxxaTWlNX9x8rbXrv6tJYiEbA="},{"url":"/arco/assets/index-D6tP7Mdz.js","integrity":"sha256-FY76wA0xOvyNUqFctsKQf7H7ucdy++vSUw9lMh/I0AA="},{"url":"/arco/assets/opensheetmusicdisplay.min-D4FpzpAo.js","integrity":"sha256-dFxU34urIIJRrGGo7Tq8Qj9POzcY8ujY52kH4vkDUo4="},{"url":"/arco/assets/pitch-worker-CFhERybe.js","integrity":"sha256-y9/SquJqpIh5N7Cz7DyCEpyHG14kj2JLy1J1A+70AAs="},{"url":"/arco/fonts/ArcoMusic-subset.woff2","integrity":"sha256-/OIWtZF2EGFmJHRsjVS/Noe0xMS0Jwov+qFsefmeI0Q="},{"url":"/arco/fonts/ArcoSans-VF.woff2","integrity":"sha256-lTo+6wng0sXHv8FjpAGnVOXwlxhi6odXA3CX/6oZNDY="},{"url":"/arco/fonts/LICENSES.txt","integrity":"sha256-RSfJgEbNyStmp0B6K5iKw2S0Og/CvYRGhgTULWgWMiM="},{"url":"/arco/fonts/OFL-Noto.txt","integrity":"sha256-FnnLYFRJkLTCRFMgxtUpjkuwwI/wDbtaUm83k/2qHm8="},{"url":"/arco/index.html","integrity":"sha256-neDnTCCPqmq1fTrN4SwJcOmojYfTKt0xzflwQHxQsGQ="},{"url":"/arco/manifest.webmanifest","integrity":"sha256-7r1ZBy6cMiOS4zLvh2Bh2XwpEss3p+RawFBA4co/jrg="}],"prefix":"arco-offline:/arco/:","version":"21e8a7f0ae580d639761","buildNumber":"20261030-012"};
 /* CONFIG is generated from the final production assets. */
 const CACHE = CONFIG.prefix + CONFIG.version;
 const activationMarker = CONFIG.base + '__offline_manual_activation__';
@@ -44,16 +44,43 @@ const integrityOf = async (response) => {
   for (const byte of digest) binary += String.fromCharCode(byte);
   return 'sha256-' + btoa(binary);
 };
-// Stores verified copies of missing files. A repaired package without a record
-// gets generation 0, so it never outranks a version installed after it.
+// Copies files whose bytes another owned version already holds and verifies
+// them against this package's integrity. Built file names carry content hashes,
+// so an update reuses every unchanged file and downloads only the changed ones.
+// A source cache deleted meanwhile, or a mismatching copy, leaves the file missing.
+async function reuse(cache, missing) {
+  const sources = (await ownedCaches()).filter((name) => name !== CACHE);
+  if (!sources.length) return missing;
+  const still = [];
+  for (const file of missing) {
+    let copied = false;
+    for (const name of sources) {
+      try {
+        const response = await caches.match(file.url, { cacheName: name });
+        if (!response?.ok || (await integrityOf(response.clone())) !== file.integrity) continue;
+        await cache.put(file.url, response);
+        copied = true;
+        break;
+      } catch {
+        // Unreadable or removed source: try the next one, then the network.
+      }
+    }
+    if (!copied) still.push(file);
+  }
+  return still;
+}
+// Stores verified copies of missing files, from older owned versions first and
+// then from the network. A repaired package without a record gets generation 0,
+// so it never outranks a version installed after it.
 async function fill(generation = 0) {
   const missing = await missingFiles();
   const recorded = await readRecord(CACHE);
   if (!missing.length && recorded) return true;
   const cache = await caches.open(CACHE);
   if (!recorded) await writeRecord(cache, generation);
+  const remaining = await reuse(cache, missing);
   await Promise.all(
-    missing.map(async (file) => {
+    remaining.map(async (file) => {
       try {
         const response = await download(file);
         if (response.ok && (await integrityOf(response.clone())) === file.integrity)
@@ -113,17 +140,11 @@ self.addEventListener('install', (event) => {
         // Recorded before downloading, so an older version activating meanwhile keeps this cache.
         await writeRecord(cache, generation);
         await cache.delete(activationMarker);
-        await cache.addAll(
-          CONFIG.files.map(
-            (file) =>
-              new Request(file.url, {
-                cache: 'reload',
-                integrity: file.integrity,
-              }),
-          ),
-        );
-        // If this cache was deleted during addAll, `cache` is detached: verify by name.
-        if (!(await fill(generation))) throw new Error('Incomplete offline package');
+        // Unchanged files are copied from older versions; only changed ones are downloaded.
+        // If this cache was deleted during the first pass, `cache` is detached: the
+        // second pass reopens it by name and fills it again.
+        if (!(await fill(generation)) && !(await fill(generation)))
+          throw new Error('Incomplete offline package');
       } catch (error) {
         await caches.delete(CACHE);
         throw error;
