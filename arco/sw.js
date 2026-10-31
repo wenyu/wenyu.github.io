@@ -1,6 +1,53 @@
-const CONFIG = {"base":"/arco/","files":[{"url":"/arco/arco-mark.svg","integrity":"sha256-xCX2RbHCJbsaD5X27TFSHt7kzIVLn/v+RLtfKvcX79I="},{"url":"/arco/assets/A3-B899Ep8C.mp3","integrity":"sha256-jhCP4ijjTjL2tOYe//cy7sUwWKnm8FqNjnGVmLEyxPk="},{"url":"/arco/assets/A4-DOvdn91G.mp3","integrity":"sha256-pi3ySiyEzqjRjB+orKfBjId7ordqAKWRJW+nTTzlSsM="},{"url":"/arco/assets/A5-CM9sZMm0.mp3","integrity":"sha256-nlzuH+nPaLcZNiPUaifIlW5XLB/yNMoOEVmbVWBQ3sY="},{"url":"/arco/assets/A6-I7BaRKn3.mp3","integrity":"sha256-tgZKZXWSxjwDVh0s4QkmB8FOHYCRRF1QBl0OyBn/b7w="},{"url":"/arco/assets/C4-B2DzZQ9W.mp3","integrity":"sha256-aJ6qTC/X8poswOOG7sRiFW1SOofXASaeXiRY5mBW9PY="},{"url":"/arco/assets/C5-C2EPYtUj.mp3","integrity":"sha256-L1sPdCIGMBD7N55oS/3y2qORHc0iUUE9efoqUwKf3DA="},{"url":"/arco/assets/C6-BcoErVUV.mp3","integrity":"sha256-DTIy7dE7pp/VyvSilQYK4P1TO4oUM64KA4ZE1wcVyQc="},{"url":"/arco/assets/C7-DoR7Z-NX.mp3","integrity":"sha256-aUtRL6yZun9ykMBF2cGOlHJKfrzDGbk3uqvGISWBQoM="},{"url":"/arco/assets/capture-worklet-CJRFVNAO.js","integrity":"sha256-jK3fF8zsz+6w+0SvaEfdB1GDB0kFGNB/B1na1P6dhzI="},{"url":"/arco/assets/Ds4-ZpjA_cOI.mp3","integrity":"sha256-Zj6Ls+LQ+iOjBSbc16sOQmCcGTwHAlZH70a63PgewhE="},{"url":"/arco/assets/Ds5-rz2hEMxW.mp3","integrity":"sha256-v3EJbmU6t87KORS5/UTYwn/oPBYlZMXbNL0GuU6xS4w="},{"url":"/arco/assets/Ds6-ZnMjIARI.mp3","integrity":"sha256-62QwFNn5JvGl+fUfxKHtjAfG2jbOFk1bIh17h4pT8UI="},{"url":"/arco/assets/Fs4-XuYqV_uK.mp3","integrity":"sha256-YTZS9cluNXNs5qRrxN22uhB20fsWo1pMIsFOZ+/d5Xw="},{"url":"/arco/assets/Fs5-bI3vcOCZ.mp3","integrity":"sha256-7S/fVDJ06nLd1OtjShY1ZTGl9AQLKmDTT7EqXHLL8i8="},{"url":"/arco/assets/Fs6-DO3MyhsQ.mp3","integrity":"sha256-xYTStOlqN7Eskg7TIS0Umr7fJTQjib/cVXsvrIR6sRw="},{"url":"/arco/assets/icon-180.png","integrity":"sha256-Sei2FKc1NkGD1Sa60RwN29WeW1b98BefXGBqJoHc/Ro="},{"url":"/arco/assets/icon-192.png","integrity":"sha256-eAUxhh5x1TbWG+dfZKzn7uqAbwGj8AKXjvl1vPLhBs8="},{"url":"/arco/assets/icon-512.png","integrity":"sha256-OEGL9FOGFnG0t7WdQluTU6ff2DqcllKJuaRIEi//hg8="},{"url":"/arco/assets/index-BRAIsXqC.js","integrity":"sha256-A9cX6f4GkQ9VAghCXWH5bxAEgEJsW1IK7pmlV2MQzBI="},{"url":"/arco/assets/index-C4A8N660.css","integrity":"sha256-u7VzjdugE0eg7MAxoj4Z2Y9cyomxYjOm0mrgHk6I09s="},{"url":"/arco/assets/opensheetmusicdisplay.min-D4FpzpAo.js","integrity":"sha256-dFxU34urIIJRrGGo7Tq8Qj9POzcY8ujY52kH4vkDUo4="},{"url":"/arco/assets/pitch-worker-nrqbl8cm.js","integrity":"sha256-i8daPIy6BN9PATbixRITC8D5VUMPdP5c5ECfWF4CtX4="},{"url":"/arco/assets/score-data-wM2tFx0M.js","integrity":"sha256-YghYuWdD4xf4fk50jOYvdPD5oQ39xjsHYo9N2BO2pg8="},{"url":"/arco/fonts/ArcoMusic-subset.woff2","integrity":"sha256-/OIWtZF2EGFmJHRsjVS/Noe0xMS0Jwov+qFsefmeI0Q="},{"url":"/arco/fonts/ArcoSans-VF.woff2","integrity":"sha256-lTo+6wng0sXHv8FjpAGnVOXwlxhi6odXA3CX/6oZNDY="},{"url":"/arco/fonts/LICENSES.txt","integrity":"sha256-RSfJgEbNyStmp0B6K5iKw2S0Og/CvYRGhgTULWgWMiM="},{"url":"/arco/fonts/OFL-Noto.txt","integrity":"sha256-FnnLYFRJkLTCRFMgxtUpjkuwwI/wDbtaUm83k/2qHm8="},{"url":"/arco/index.html","integrity":"sha256-2vvWWg/JIFvhIFj1CoB0BjMIv+KlZhgznHjfV9WFgiY="},{"url":"/arco/manifest.webmanifest","integrity":"sha256-7r1ZBy6cMiOS4zLvh2Bh2XwpEss3p+RawFBA4co/jrg="}],"prefix":"arco-offline:/arco/:","version":"a9e51e5f1bec4decbff3","buildNumber":"20261031-009"};
+const CONFIG = {"base":"/arco/","files":[{"url":"/arco/arco-mark.svg","integrity":"sha256-xCX2RbHCJbsaD5X27TFSHt7kzIVLn/v+RLtfKvcX79I="},{"url":"/arco/assets/A3-B899Ep8C.mp3","integrity":"sha256-jhCP4ijjTjL2tOYe//cy7sUwWKnm8FqNjnGVmLEyxPk="},{"url":"/arco/assets/A4-DOvdn91G.mp3","integrity":"sha256-pi3ySiyEzqjRjB+orKfBjId7ordqAKWRJW+nTTzlSsM="},{"url":"/arco/assets/A5-CM9sZMm0.mp3","integrity":"sha256-nlzuH+nPaLcZNiPUaifIlW5XLB/yNMoOEVmbVWBQ3sY="},{"url":"/arco/assets/A6-I7BaRKn3.mp3","integrity":"sha256-tgZKZXWSxjwDVh0s4QkmB8FOHYCRRF1QBl0OyBn/b7w="},{"url":"/arco/assets/C4-B2DzZQ9W.mp3","integrity":"sha256-aJ6qTC/X8poswOOG7sRiFW1SOofXASaeXiRY5mBW9PY="},{"url":"/arco/assets/C5-C2EPYtUj.mp3","integrity":"sha256-L1sPdCIGMBD7N55oS/3y2qORHc0iUUE9efoqUwKf3DA="},{"url":"/arco/assets/C6-BcoErVUV.mp3","integrity":"sha256-DTIy7dE7pp/VyvSilQYK4P1TO4oUM64KA4ZE1wcVyQc="},{"url":"/arco/assets/C7-DoR7Z-NX.mp3","integrity":"sha256-aUtRL6yZun9ykMBF2cGOlHJKfrzDGbk3uqvGISWBQoM="},{"url":"/arco/assets/Ds4-ZpjA_cOI.mp3","integrity":"sha256-Zj6Ls+LQ+iOjBSbc16sOQmCcGTwHAlZH70a63PgewhE="},{"url":"/arco/assets/Ds5-rz2hEMxW.mp3","integrity":"sha256-v3EJbmU6t87KORS5/UTYwn/oPBYlZMXbNL0GuU6xS4w="},{"url":"/arco/assets/Ds6-ZnMjIARI.mp3","integrity":"sha256-62QwFNn5JvGl+fUfxKHtjAfG2jbOFk1bIh17h4pT8UI="},{"url":"/arco/assets/Fs4-XuYqV_uK.mp3","integrity":"sha256-YTZS9cluNXNs5qRrxN22uhB20fsWo1pMIsFOZ+/d5Xw="},{"url":"/arco/assets/Fs5-bI3vcOCZ.mp3","integrity":"sha256-7S/fVDJ06nLd1OtjShY1ZTGl9AQLKmDTT7EqXHLL8i8="},{"url":"/arco/assets/Fs6-DO3MyhsQ.mp3","integrity":"sha256-xYTStOlqN7Eskg7TIS0Umr7fJTQjib/cVXsvrIR6sRw="},{"url":"/arco/assets/capture-worklet-CJRFVNAO.js","integrity":"sha256-jK3fF8zsz+6w+0SvaEfdB1GDB0kFGNB/B1na1P6dhzI="},{"url":"/arco/assets/icon-180.png","integrity":"sha256-Sei2FKc1NkGD1Sa60RwN29WeW1b98BefXGBqJoHc/Ro="},{"url":"/arco/assets/icon-192.png","integrity":"sha256-eAUxhh5x1TbWG+dfZKzn7uqAbwGj8AKXjvl1vPLhBs8="},{"url":"/arco/assets/icon-512.png","integrity":"sha256-OEGL9FOGFnG0t7WdQluTU6ff2DqcllKJuaRIEi//hg8="},{"url":"/arco/assets/index-Bn8Umgpy.js","integrity":"sha256-muTYDxJBDJoWbyTUJ405+BdfFkvXTTQ7aF5HQy5r85E="},{"url":"/arco/assets/index-C4A8N660.css","integrity":"sha256-u7VzjdugE0eg7MAxoj4Z2Y9cyomxYjOm0mrgHk6I09s="},{"url":"/arco/assets/opensheetmusicdisplay.min-D4FpzpAo.js","integrity":"sha256-dFxU34urIIJRrGGo7Tq8Qj9POzcY8ujY52kH4vkDUo4="},{"url":"/arco/assets/pitch-worker-nrqbl8cm.js","integrity":"sha256-i8daPIy6BN9PATbixRITC8D5VUMPdP5c5ECfWF4CtX4="},{"url":"/arco/assets/score-data-wM2tFx0M.js","integrity":"sha256-YghYuWdD4xf4fk50jOYvdPD5oQ39xjsHYo9N2BO2pg8="},{"url":"/arco/fonts/ArcoMusic-subset.woff2","integrity":"sha256-/OIWtZF2EGFmJHRsjVS/Noe0xMS0Jwov+qFsefmeI0Q="},{"url":"/arco/fonts/ArcoSans-VF.woff2","integrity":"sha256-lTo+6wng0sXHv8FjpAGnVOXwlxhi6odXA3CX/6oZNDY="},{"url":"/arco/fonts/LICENSES.txt","integrity":"sha256-RSfJgEbNyStmp0B6K5iKw2S0Og/CvYRGhgTULWgWMiM="},{"url":"/arco/fonts/OFL-Noto.txt","integrity":"sha256-FnnLYFRJkLTCRFMgxtUpjkuwwI/wDbtaUm83k/2qHm8="},{"url":"/arco/index.html","integrity":"sha256-M5OtTUh5RLrU7yzuPB/X+3TS9fD+E7aS+qXgkfjn5jM="},{"url":"/arco/manifest.webmanifest","integrity":"sha256-7r1ZBy6cMiOS4zLvh2Bh2XwpEss3p+RawFBA4co/jrg="},{"url":"/arco/publication.json","integrity":"sha256-ZiVp+Gr1lznRNREVLeozfj2+G+BjNfU0WRvHdKcih/s="}],"prefix":"arco-offline:/arco/:","publicationSequence":1,"version":"1-40b3ea67591c91407315","contentHash":"40b3ea67591c914073150dc1035a9cb0a9afe5421cda29e52040d681fdcce47a","buildNumber":"20261031-010","publicationProtocol":1};
 /* CONFIG is generated from the final production assets. */
 const CACHE = CONFIG.prefix + CONFIG.version;
+// Deliberately outside CONFIG.prefix: package cleanup (including legacy workers)
+// must never erase publication authority. Installs for a registration are serialized
+// by the browser; activation only reads this watermark, never writes an older one.
+const authorityCache = `arco-publication:${CONFIG.base}`;
+const authorityKey = CONFIG.base + '__offline_publication__';
+const publicationIdentity = JSON.stringify({
+  version: CONFIG.version,
+  buildNumber: CONFIG.buildNumber,
+  contentHash: CONFIG.contentHash,
+  files: CONFIG.files,
+});
+async function assertPublication() {
+  if (!Number.isSafeInteger(CONFIG.publicationSequence) || CONFIG.publicationSequence < 0)
+    throw new Error('Invalid publication sequence');
+  const response = await caches.match(authorityKey, { cacheName: authorityCache });
+  if (!response) return;
+  const accepted = await response.json();
+  if (
+    !Number.isSafeInteger(accepted.sequence) ||
+    accepted.sequence < 0 ||
+    typeof accepted.identity !== 'string'
+  )
+    throw new Error('Invalid publication watermark');
+  if (
+    CONFIG.publicationSequence < accepted.sequence ||
+    (CONFIG.publicationSequence === accepted.sequence && publicationIdentity !== accepted.identity)
+  ) {
+    await announcePublication('OFFLINE_PUBLICATION_SUPERSEDED');
+    throw new Error('Stale or conflicting publication');
+  }
+  return accepted;
+}
+async function acceptPublication() {
+  await assertPublication();
+  await (
+    await caches.open(authorityCache)
+  ).put(
+    authorityKey,
+    new Response(
+      JSON.stringify({
+        sequence: CONFIG.publicationSequence,
+        identity: publicationIdentity,
+      }),
+      { headers: { 'Content-Type': 'application/json' } },
+    ),
+  );
+}
 const activationMarker = CONFIG.base + '__offline_manual_activation__';
 // Each installation records its generation, one above every recorded generation,
 // before downloading. Activation compares generations to find older versions.
@@ -30,7 +77,12 @@ const writeRecord = (cache, generation) =>
   cache.put(
     packageRecord,
     new Response(
-      JSON.stringify({ version: CONFIG.version, buildNumber: CONFIG.buildNumber, generation }),
+      JSON.stringify({
+        version: CONFIG.version,
+        buildNumber: CONFIG.buildNumber,
+        publicationSequence: CONFIG.publicationSequence,
+        generation,
+      }),
       { headers: { 'Content-Type': 'application/json' } },
     ),
   );
@@ -44,10 +96,20 @@ const integrityOf = async (response) => {
   for (const byte of digest) binary += String.fromCharCode(byte);
   return 'sha256-' + btoa(binary);
 };
-// Copies files whose bytes another owned version already holds and verifies
-// them against this package's integrity. Built file names carry content hashes,
-// so an update reuses every unchanged file and downloads only the changed ones.
-// A source cache deleted meanwhile, or a mismatching copy, leaves the file missing.
+// Every verified response carries its integrity inside the owned cache.
+const integrityHeader = 'X-Arco-Integrity';
+const storeVerified = (cache, file, response) => {
+  const headers = new Headers(response.headers);
+  headers.set(integrityHeader, file.integrity);
+  return cache.put(
+    file.url,
+    new Response(response.body, {
+      status: response.status,
+      statusText: response.statusText,
+      headers,
+    }),
+  );
+};
 async function reuse(cache, missing) {
   const sources = (await ownedCaches()).filter((name) => name !== CACHE);
   if (!sources.length) return missing;
@@ -57,8 +119,15 @@ async function reuse(cache, missing) {
     for (const name of sources) {
       try {
         const response = await caches.match(file.url, { cacheName: name });
-        if (!response?.ok || (await integrityOf(response.clone())) !== file.integrity) continue;
-        await cache.put(file.url, response);
+        if (!response?.ok) continue;
+        const recorded = response.headers.get(integrityHeader);
+        if (recorded && recorded !== file.integrity) continue;
+        if (
+          recorded !== file.integrity &&
+          (await integrityOf(response.clone())) !== file.integrity
+        )
+          continue;
+        await storeVerified(cache, file, response);
         copied = true;
         break;
       } catch {
@@ -83,8 +152,8 @@ async function fill(generation = 0) {
     remaining.map(async (file) => {
       try {
         const response = await download(file);
-        if (response.ok && (await integrityOf(response.clone())) === file.integrity)
-          await cache.put(file.url, response);
+        // Fetch consumes and validates Request.integrity before resolving.
+        if (response.ok) await storeVerified(cache, file, response);
       } catch {
         // Offline or unverifiable: the file stays missing until a later repair.
       }
@@ -96,10 +165,11 @@ const inScope = (client) => {
   const url = new URL(client.url);
   return url.origin === self.location.origin && url.pathname.startsWith(CONFIG.base);
 };
-// A status reply can give up before a slow repair finishes; windows re-check on this message.
-async function announceReady() {
+// Windows re-check after a slow repair or a refused stale installation.
+async function announcePublication(type = 'OFFLINE_PACKAGE_READY') {
   const message = {
-    type: 'OFFLINE_PACKAGE_READY',
+    type,
+    publicationSequence: CONFIG.publicationSequence,
     version: CONFIG.version,
     buildNumber: CONFIG.buildNumber,
   };
@@ -116,7 +186,7 @@ const repair = () =>
   (repairing ??= fill()
     .catch(() => false)
     .then(async (ready) => {
-      if (ready) await announceReady();
+      if (ready) await announcePublication();
       return ready;
     })
     .finally(() => {
@@ -132,6 +202,11 @@ const within = (promise, ms) => {
 self.addEventListener('install', (event) => {
   event.waitUntil(
     (async () => {
+      // Refuse stale scripts before they can enter waiting (passive activation).
+      const accepted = await assertPublication();
+      const existed = (await caches.keys()).includes(CACHE);
+      const keep = existed && ((await completePackage()) ||
+        (accepted?.sequence === CONFIG.publicationSequence && accepted.identity === publicationIdentity));
       let generation = 1;
       for (const name of await ownedCaches())
         generation = Math.max(generation, ((await readRecord(name))?.generation ?? 0) + 1);
@@ -145,8 +220,10 @@ self.addEventListener('install', (event) => {
         // second pass reopens it by name and fills it again.
         if (!(await fill(generation)) && !(await fill(generation)))
           throw new Error('Incomplete offline package');
+        await acceptPublication();
       } catch (error) {
-        await caches.delete(CACHE);
+        // A previously accepted package may still serve the active document during URL migration.
+        if (!keep) await caches.delete(CACHE);
         throw error;
       }
     })(),
@@ -187,6 +264,8 @@ async function reclaim(keepPrevious, keep) {
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     (async () => {
+      // A rejection skips cleanup and claiming clients; it cannot prevent browser activation.
+      await assertPublication();
       // Old documents can finish requests across explicit handover, including lazy chunks.
       // A later activation reclaims that previous version.
       const marker = await caches.match(activationMarker, { cacheName: CACHE });
@@ -234,16 +313,30 @@ self.addEventListener('fetch', (event) => {
   );
 });
 async function reply(event, ready) {
-  const status = { ready, version: CONFIG.version, buildNumber: CONFIG.buildNumber };
+  const status = {
+    ready,
+    version: CONFIG.version,
+    buildNumber: CONFIG.buildNumber,
+    publicationSequence: CONFIG.publicationSequence,
+  };
   if (event.data.type === 'OFFLINE_STATUS') {
     event.ports[0]?.postMessage(status);
     return;
+  }
+  let authoritative = true;
+  try {
+    await assertPublication();
+  } catch {
+    authoritative = false;
   }
   const source = event.source;
   const clients = await self.clients.matchAll({ type: 'window', includeUncontrolled: true });
   const otherWindows = clients.some((client) => inScope(client) && client.id !== source?.id);
   if (
     !ready ||
+    !authoritative ||
+    (event.data.publicationSequence !== undefined &&
+      event.data.publicationSequence !== CONFIG.publicationSequence) ||
     event.data.version !== CONFIG.version ||
     !source ||
     !inScope(source) ||
