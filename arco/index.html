@@ -3,10 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-    <meta name="theme-color" content="#206454" />
+    <meta name="theme-color" content="#8a4b22" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="Arco" />
     <link rel="apple-touch-icon" sizes="180x180" href="/arco/assets/icon-180.png" />
+    <!-- Dark-mode variant: browsers that honour media on icon links pick it when the device is dark. -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/arco/assets/icon-180-dark.png"
+      media="(prefers-color-scheme: dark)"
+    />
     <link rel="manifest" href="/arco/manifest.webmanifest" />
     <!-- The UI face is the one font every page needs: fetch it with the HTML. -->
     <link
@@ -29,11 +36,17 @@
       content="Arco — a calm space for violin scales, listening, and daily practice. 弓弦练习：音阶、听音与日常练习。"
     />
     <link rel="icon" type="image/svg+xml" href="/arco/arco-mark.svg" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/arco/assets/arco-mark-dark.svg"
+      media="(prefers-color-scheme: dark)"
+    />
     <title>Arco · Violin practice</title>
     <!-- Shown inside #root until React's first render replaces it. -->
     <style>
       html {
-        background: #f7f5ef;
+        background: #f8f3ea;
       }
       body {
         margin: 0;
@@ -54,7 +67,7 @@
           sans-serif;
         font-size: 15px;
         line-height: 1.6;
-        color: #172b27;
+        color: #2a1c14;
       }
       .arco-launch p {
         margin: 0;
@@ -63,7 +76,7 @@
         width: 56px;
         height: 80px;
         margin-bottom: 12px;
-        color: #315f53;
+        color: #8a4b22;
       }
       .arco-launch .arco-launch-name {
         margin-bottom: 8px;
@@ -73,20 +86,20 @@
         line-height: 1;
       }
       .arco-launch-name span {
-        color: #9ba995;
+        color: #8a4b22;
       }
       .arco-launch-help {
         display: flex;
         flex-direction: column;
         margin-top: 16px;
-        color: #596b63;
+        color: #6b5a4c;
         /* A normal launch replaces this page long before the hint appears. */
         animation: arco-launch-help 0.3s ease-out 5s both;
       }
       .arco-launch-help a {
         display: inline-block;
         padding: 10px 6px;
-        color: #206454;
+        color: #8a4b22;
         text-decoration: underline;
       }
       @keyframes arco-launch-help {
@@ -100,9 +113,9 @@
         }
       }
     </style>
-    <script type="module" crossorigin src="/arco/assets/index-Dzzztks3.js"></script>
+    <script type="module" crossorigin src="/arco/assets/index-C-ucpZwj.js"></script>
     <link rel="modulepreload" crossorigin href="/arco/assets/score-data-wM2tFx0M.js">
-    <link rel="stylesheet" crossorigin href="/arco/assets/index-BLQ9290f.css">
+    <link rel="stylesheet" crossorigin href="/arco/assets/index-BQPgTGzg.css">
     <script>if (location.hostname === 'wenyu.github.io' && !navigator.webdriver) {
   var gtagScript = document.createElement('script');
   gtagScript.async = true;
@@ -115,9 +128,9 @@
   gtag('js', new Date());
   gtag('config', 'G-XMW7PKEK3E');
 }</script>
-  <meta name="arco-publication" content="11">
-<meta name="arco-package" content="11-014ea2f86332a01928f1">
-<meta name="arco-build" content="20261101-006">
+  <meta name="arco-publication" content="12">
+<meta name="arco-package" content="12-0b5148c2837ad368cb1b">
+<meta name="arco-build" content="20261101-007">
 </head>
   <body>
     <div id="root">
