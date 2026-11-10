@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+    <title>English to Pinyin</title>
+    <script language="JavaScript">
+      var charMaps = {
+          "a": "啊",
+          "ai": "哀",
+          "an": "安",
+          "ang": "昂",
+          "ao": "嗷",
+          "b": "伯",
+          "c": "茨",
+          "ch": "痴",
+          "d": "的",
+          "e": "俄",
+          "ei": "诶",
+          "en": "恩",
+          "eng": "摁",
+          "er": "尔",
+          "f": "父",
+          "g": "哥",
+          "h": "喝",
+          "i": "衣",
+          "ie": "爷",
+          "in": "因",
+          "ing": "英",
+          "iu": "油",
+          "j": "鸡",
+          "k": "壳",
+          "l": "了",
+          "m": "沫",
+          "n": "呢",
+          "o": "喔",
+          "ou": "呕",
+          "ong": "雍",
+          "p": "泼",
+          "q": "器",
+          "r": "日",
+          "s": "斯",
+          "sh": "屎",
+          "t": "特",
+          "u": "乌",
+          "ue": "岳",
+          "ui": "微",
+          "un": "温",
+          "v": "威",
+          "w": "挖",
+          "x": "习",
+          "y": "吖",
+          "z": "姿",
+          "zh": "吱",
+
+          "+": "加儿",
+          "-": "横杠儿",
+          "*": "星号儿",
+          "/": "斜杠儿",
+          "//": "双斜杠儿",
+          "\\": "反斜杠儿",
+          "%": "百分号儿",
+          "$": "万恶的美元符号儿",
+          "#": "井号儿",
+          ":": "冒号儿",
+          "?": "问号儿",
+          "=": "等号儿",
+          "'": "一撇儿",
+          "_": "下划线儿",
+          ".": "点儿",
+          "&": "与号儿",
+      };
+      var numMaps = {
+        "0": ["〇", "零"],
+        "1": ["一", "壹"],
+        "2": ["二", "贰"],
+        "3": ["三", "叁"],
+        "4": ["四", "肆"],
+        "5": ["五", "伍"],
+        "6": ["六", "陆"],
+        "7": ["七", "柒"],
+        "8": ["八", "捌"],
+        "9": ["九", "玖"],
+      }
+    </script>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="navbar-brand container-fluid">English to Pinyin</div>
+    </nav>
+    <div class="container-sm">
+      <br>
+      <div class="input-group">
+        <span class="input-group-text">Original</span>
+        <textarea class="form-control" id="original"></textarea>
+      </div>
+      <br>
+      <div class="input-group">
+        <span class="input-group-text">Converted</span>
+        <textarea class="form-control" id="converted"></textarea>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script language="JavaScript">
+      function convert(text) {
+        text = text.toLowerCase();
+        var chunks = [];
+        var i = 0;
+        while (i < text.length) {
+          var c = text.charAt(i);
+          var chunk = "";
+          if (c in numMaps) {
+            chunk = numMaps[c][i++&1];
+          } else {
+            for (var j = 3; j > 0; --j) {
+              chunk = text.substr(i, j);
+              if (chunk in charMaps) {
+                i += j - 1;
+                chunk = charMaps[chunk];
+                break;
+              }
+            }
+            ++i;
+          }
+          chunks.push(chunk);
+        }
+        return chunks.join("");
+      }
+      $("#original").change(function() {
+        $("#converted").val(convert($("#original").val()));
+      })
+    </script>
+  </body>
+</html>
