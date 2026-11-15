@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /arco$
+Allow: /arco/
+Allow: /arco-stable$
+Allow: /arco-stable/
+Disallow: /

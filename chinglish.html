@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+    <title>Chinglish Converter</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="navbar-brand container-fluid">Chinglish Converter</div>
+    </nav>
+    <div class="container-sm">
+      <br>
+      <div class="input-group" style="height: 150px">
+        <span class="input-group-text">Original</span>
+        <textarea class="form-control" id="original"></textarea>
+      </div>
+      <div class="btn-group">
+      </div>
+      <div class="input-group" style="height: 150px">
+        <span class="input-group-text">Converted</span>
+        <textarea class="form-control" id="converted"></textarea>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script language="JavaScript">
+      var letterDict = {};
+      var phraseDict = {};
+      var space = [" "]; //空格", "空白", "空格儿", "空档"];
+      
+      function addLine(line) {
+        var items = line.split(" ");
+        var k = items[0];
+        var v = items.splice(1);
+        var d = phraseDict;
+        if (k.length == 1 || k.match(/[^a-zA-Z0-9]/)) {
+          d = letterDict;
+        }
+        if (k in d) {
+          d[k] = d[k].concat(v);
+        } else {
+          d[k] = v;
+        }
+      }
+      
+      function choose(l, seed) {
+        return l[Math.floor(seed * 101719) % l.length];
+      }
+      
+      function convert(text) {
+        text = text.toLowerCase().trim();
+        var result = [];
+        while (text.length > 0) {
+          var token = text.match(/[a-z]+|[0-9]+|[ \t]+|./s)[0];
+          console.log(token);
+          var seed = Math.random();
+          
+          text = text.substr(token.length);
+
+          if (token.match(/[ \t]/)) {
+            result.push(choose(space, seed));
+          } else if (token in phraseDict) {
+            result.push(choose(phraseDict[token], seed));
+          } else {
+            for (i in token) {
+              if (token[i] in letterDict) {
+                result.push(choose(letterDict[token[i]], seed));
+              } else {
+                result.push(token[i]);
+              }
+            }
+          }
+          result.push(" ");
+        }
+        return result.join('').trim();
+      }
+      
+      $.get("chinglish.txt", (text) => {
+        text.split('\n').filter((line) => { return line.length > 1;}).forEach(addLine);
+        console.log(letterDict);
+        console.log(phraseDict);
+      });
+      
+      $("#original").change(() => {
+        $("#converted").val(convert($("#original").val()));
+      })
+    </script>
+  </body>
+</html>
